@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>My First Web Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" defer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="code.js" defer></script>
+</head>
+    <body>
+        <button id="theme-toggle">
+             <i class="fas fa-moon" id="moon-icon"></i>
+            <i class="fas fa-sun" id="sun-icon"></i>
+            Switch to dark mode
+        </button>
+        <h1>Welcome to My Website</h1>
+        <h2 id="name">Sherif Abdelhamid</h2>
+        <!-- <p>This is a paragraph on my first web page.</p>-->
+        <img src="Sherif Abdelhamid.jpg" alt="My Profile Photo" width="150" height="150">
+        
+        <h3 id="about">About Me</h3>
+        <p>Hello! My name is Sherif Abdelhamid.<br>
+            I am passionate about <em>web development and data science</em>. 
+            I love creating beautiful and functional websites.</p>  
+
+        <p> Visit my <a href="blog.html">Blog</a> to learn more about my 
+            thoughts and experiences.</p>
+
+        <p>My Technical Skills 😎:</p>
+        <ol>
+            <li>Python Programming</li>
+            <li>HTML, JS, and CSS</li>
+            <li>Database Management</li>
+        </ol>
+
+        <table border="1">
+            <tr>
+                <th>Certificate</th>
+                <th>Organization</th>
+                <th>Year</th>
+            </tr>
+            <tr style="background-color: lightblue;">
+                <td colspan="3">Web and Data Science</td>
+                
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>Coursera</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Data Science &#9749;</td>
+                <td>edX</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Python 🐍</td>
+                <td>Udemy</td>
+                <td>2024</td>
+            </tr>
+            <tr style="background-color: lightblue;">
+                <td colspan="3">Artificial Intelligence</td>
+                
+            </tr>
+            <tr>
+                <td>AI Fundamentals</td>
+                <td>Coursera</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Machine Learning</td>
+                <td>edX</td>
+                <td>2025</td>           
+            </tr>
+        </table>
+        <p id="experience">Loading...</p>
+        <p>My Hobbies:</p>
+        <ul>
+            <li>Hiking</li>
+            <li>Photography</li>
+            <li>Traveling</li>
+        </ul>
+    <p>My <a href="https://www.linkedin.com/in/sherifabdelhamid/">LinkedIn Profile</a></p>
+    <p>My <a href="mailto:abdelhamidse@vmi.edu">Email</a></p>
+
+    <h3>Contact Me </h3>
+    <form id="contactForm" action="https://example.com/apply" method="POST" style="background-color: antiquewhite; padding: 10px; width: 400px;">
+        <p>
+      <label for="first">First Name:</label>
+      <input type="text" name="first" id="first">
+        </p>
+        <p>
+      <label for="last">Last Name:</label>
+      <input type="text" name="last" id="last">
+        </p>
+        <p>
+      <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="3" cols="40"></textarea>
+        </p>    
+
+        <input type="submit">
+    </form>
+
+
+    <p>&copy; 2026 Sherif Abdelhamid</p>
+    </body>
+</html>
