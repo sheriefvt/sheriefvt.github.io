@@ -1,0 +1,40 @@
+         h2#name {
+                color: green;
+            }
+         
+         p {
+                
+                font-size: 16px;
+            }
+            th {
+                background-color: lightgray;
+                color: blue;
+            }
+            img {
+                border-radius: 50%;  
+                border: 3px  solid blue;
+            }
+            body {
+                background-color: lightyellow;
+            }
+
+            em {
+                color: red;
+            }
+
+            :root {
+            --bg-color: #ffffff;
+            --text-color: #000000;
+            }
+            body.dark-mode {
+            --bg-color: #333333;
+            --text-color: #ffffff;
+            }
+            body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            }
+
+            #sun-icon {
+                display: none;
+            }
